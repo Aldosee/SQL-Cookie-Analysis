@@ -362,7 +362,8 @@ WHERE month_cookies IN ('January','February','March') AND year_cookies = 2024
 
 ## 🛠️ Tools and Technologies
 
- - **SQL Server Management Studio (SSMS):** For creating the relational database, inserting records, and running queries.
+ - **SQL Server Management Studio (SSMS):** For creating the relational database, and inserting records.
+- **SQL:** Run queries and data manipulation.
  - **Python (Faker Library):** To automate the generation of 1000 fictional customer, order, and order details records.
  - **CSV Files:** The data generated was saved in CSV format and then inserted into the SSMS database.
  - **Power BI:** Used for building an interactive dashboard to visualize sales trends and customer behavior.
