@@ -13,7 +13,7 @@ You can check the full dashboard: [PowerBI_Cookies](https://github.com/Aldosee/S
 ### 📊 Database Setup
  The following SQL queries were used to build and populate a fictional Cookies Business Database consisting of four main tables: Cookies, Customers, Orders, and Order_Details. 
 
-#### **Schema and Data:** ***You can check the creation and importation of the data to the Database Engine (SQL Server Management Studio) [Click here](https://github.com/Aldosee/SQL-Cookie-Analysis/tree/main/data_import)
+#### **Schema and Data:** ***You can check the creation and importation of the data to the Database Engine (SQL Server Management Studio)*** [Click here](https://github.com/Aldosee/SQL-Cookie-Analysis/tree/main/data_import)
 
 #### **1. Customers Table**
  - customer_id (Primary Key)
@@ -175,7 +175,7 @@ FROM
 ### RESULT:
 | total_repeat_order |total_orders| percent_of_repeat_orders |
 |--------------------|-------------|------------|
-| 2577               | 1000        | 25.70      |
+| 257               | 1000        | 25.70      |
 
 
 ***Calculates the percentage of repeat customers, providing insight into customer loyalty and retention.***
