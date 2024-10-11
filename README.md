@@ -175,7 +175,7 @@ FROM
 ### RESULT:
 | total_repeat_order |total_orders| percent_of_repeat_orders |
 |--------------------|-------------|------------|
-| 2577               | 1000        | 25.70      |
+| 257               | 1000        | 25.70      |
 
 
 ***Calculates the percentage of repeat customers, providing insight into customer loyalty and retention.***
