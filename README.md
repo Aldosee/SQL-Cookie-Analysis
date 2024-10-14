@@ -154,7 +154,7 @@ ORDER BY
 ![Cookies_trend](assets/Sales_trend.png)
 ***Visualizes sales performance trends across the year helping to track growth or decline.***
 
-#### 3. What percentage of customers are repeat buyers?
+### 3. What percentage of customers are repeat buyers?
 ```
 WITH repeat_order AS (
 SELECT 
@@ -181,7 +181,7 @@ FROM
 ***Calculates the percentage of repeat customers, providing insight into customer loyalty and retention.***
 
 
-#### 4. What is the month-over-month sales performance?
+### 4. What is the month-over-month sales performance?
 ```
 SELECT 
       YEAR(o.order_date) AS year_cookies, 
@@ -229,7 +229,7 @@ ORDER BY
 
 ***Breaks down sales performance by month to help identify seasonality and sales trends.***
 
-#### 5.1 Can we forecast which products will perform well in the future based on past performance? (9 months past performance in 2024 based on orders and sales)
+### 5.1 Can we forecast which products will perform well in the future based on past performance? (9 months past performance in 2024 based on orders and sales)
 ```
 --Order
 WITH nine_month_performance AS (
@@ -313,7 +313,7 @@ ORDER BY total_sale DESC;
 |Sugar Cookie	|1657.00
 
 
-#### 5.2 Using the moving average method for a 4-quarter 2024. (Estimated sale in Oct, Nov, Dec).What are the expected sales for the next quarter based on historical trends? 
+### 5.2 Using the moving average method for a 4-quarter 2024. (Estimated sale in Oct, Nov, Dec).What are the expected sales for the next quarter based on historical trends? 
 ```
 WITH sale_per_month AS (
 SELECT YEAR(o.order_date) AS year_cookies, 
